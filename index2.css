@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    margin-top: 150px;
+    background-color: rgb(255, 253, 253);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    background-color: pink;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    color: rgb(235, 90, 114);;
+}
+
+.logo {
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    line-height:30px;
+    color: rgb(235, 90, 114);;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav  :hover {
+   font-size: 25px;
+   color: rgb(171, 47, 67);
+}
+
+.frasetopo{
+    text-align: center;
+}
+
+.frasetopo h2 {
+    font-size: 50px;
+    color: rgb(235, 90, 114);
+}
+
+.frasetopo p {
+    font-size: 30px;
+    font-family: Georgia
+}
+
+.destaques h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    color: rgb(235, 90, 114);;
+}
+
+.destaques p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Georgia;
+    margin-bottom: 70px;
+}
+
+ .destaques ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    list-style: none;
+}
+
+ .destaques ul li {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   padding: 10px;
+}
+
+.destaques img {
+ width: 400px;
+ height: 500px;
+ border-radius: 20px;
+ display: block;
+    
+}
+
+.destaques button {
+    margin-top: 10px;
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    background-color: pink;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(202, 86, 105);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Georgia ;
+     color: rgb(231, 20, 196);
+     font-size: 16px;
+    }
